@@ -1,24 +1,36 @@
-import React from "react";
-import Head from "next/head";
-import Image from "next/image";
-
-import styled from "styled-components";
-
-const IndexContainer = styled.div`
-  width: 100vw;
-  height: 100vh;
-  background-color: darkorchid;
-`;
+import React from 'react'
+import Head from 'next/head'
+import {
+  IndexContainer,
+  Section1,
+  Section2,
+  Text,
+  ArrowDown,
+  Card,
+  SectionTitle
+} from '../styles/home'
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Telzir</title>
       </Head>
       <IndexContainer>
-        <p>Index Page</p>
+        <Section1>
+          <Text>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            assumenda explicabo at soluta aspernatur, possimus placeat!
+          </Text>
+          <ArrowDown src="/seta-arrow-gif-1.gif" />
+        </Section1>
+        <SectionTitle>Confira os nossos planos</SectionTitle>
+        <Section2>
+          <Card bgimage="/phone1.jpg" />
+          <Card bgimage="/phone2.jpg" />
+          <Card bgimage="/phone3.jpg" />
+        </Section2>
       </IndexContainer>
     </>
-  );
+  )
 }

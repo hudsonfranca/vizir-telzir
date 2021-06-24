@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react'
 
-import styled from "styled-components";
+import styled from 'styled-components'
 
-const MainContainer = styled.div`
-  width: 100vw;
-  min-height: 100vh;
-`;
+const MainContainer = styled.main`
+  padding-top: 66px;
+`
 
 export const Main: React.FC = ({ children }) => {
-  return <MainContainer>{children}</MainContainer>;
-};
+  return <MainContainer>{children}</MainContainer>
+}

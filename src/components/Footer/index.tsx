@@ -1,16 +1,15 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react'
+import styled from 'styled-components'
 
-const FooterContainer = styled.div`
-  width: 100vw;
-  height: 66px;
-  background-color: blue;
-`;
+const FooterContainer = styled.footer`
+  height: 90px;
+  background-color: ${({ theme }) => theme.colors.primary};
+`
 
 export const Footer = () => {
   return (
     <FooterContainer>
       <p>Footer</p>
     </FooterContainer>
-  );
-};
+  )
+}

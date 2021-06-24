@@ -1,17 +1,15 @@
-import React from "react";
-
-import styled from "styled-components";
-
-const NavContainer = styled.div`
-  width: 100vw;
-  height: 66px;
-  background-color: red;
-`;
+import React from 'react'
+import { NavContainer, Li, Ul, Logo } from './styles'
 
 export const Nav = () => {
   return (
     <NavContainer>
-      <p>NavBar</p>
+      <Logo>Telzir</Logo>
+
+      <Ul>
+        <Li>Contato</Li>
+        <Li>Planos</Li>
+      </Ul>
     </NavContainer>
-  );
-};
+  )
+}
