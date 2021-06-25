@@ -9,6 +9,7 @@ export const Nav = () => {
       <Ul>
         <Li>Contato</Li>
         <Li>Planos</Li>
+        <Li>Sobre</Li>
       </Ul>
     </NavContainer>
   )
