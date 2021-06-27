@@ -4,6 +4,7 @@ import { GlobalStyle } from '../styles/globals'
 import { theme } from '../styles/theme'
 import { ThemeProvider } from 'styled-components'
 import { Layout } from '../components/Layout'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

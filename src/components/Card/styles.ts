@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
-export const Container = styled.div.attrs((props: { bgimageUrl: string }) => ({
+export const Container = styled.div.attrs((props: { bgimageUrl?: string }) => ({
   bgimageUrl: props.bgimageUrl
 }))`
-  height: 300px;
+  height: 100%;
+  width: 100%;
   background-image: url(${({ bgimageUrl }) => bgimageUrl});
   background-position: center;
   background-repeat: no-repeat;
