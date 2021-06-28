@@ -18,7 +18,7 @@
 
 ## Get started
 
-Para iniciar o projeto clone o repositório [`git clone https://github.com/hudsonfranca/vizir-telzir.git`], instale as dependências [`yarn install`], depois que as dependencias forem instaladas execute [`yarn dev`] na raiz do projeto.
+Para iniciar o projeto clone o repositório [`git clone https://github.com/hudsonfranca/vizir-telzir.git`], instale as dependências [`yarn install`], depois que terminar a instalação execute [`yarn dev`] na raiz do projeto.
 
 Para iniciar os testes execute [`yarn test`] na raiz do projeto.
 
