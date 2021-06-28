@@ -16,7 +16,7 @@ export const SectionTitle = styled.p.attrs((props: { color: string }) => ({
 
 export const Container = styled.section`
   width: 100%;
-  min-height: 700px;
+  min-height: 100vh;
   padding-left: 11%;
   padding-right: 11%;
   display: flex;

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
   width: 100%;
-  height: 650px;
+  min-height: 100vh;
   background-image: url('/baner1.jpg');
   background-position: center;
   background-repeat: no-repeat;
