@@ -25,7 +25,7 @@ export const Container = styled.div.attrs((props: { bgimageUrl?: string }) => ({
   }
 `
 
-export const CardTitle = styled.div`
+export const CardTitle = styled.header`
   width: 100%;
   height: 50px;
   align-self: flex-start;

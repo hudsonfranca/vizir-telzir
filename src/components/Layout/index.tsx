@@ -6,9 +6,9 @@ import { Footer } from '../Footer'
 export const Layout: React.FC = ({ children }) => {
   return (
     <>
-      <Nav />
-      <Main>{children}</Main>
-      <Footer />
+      <Nav data-testid="nav" />
+      <Main data-testid="main">{children}</Main>
+      <Footer data-testid="footer" />
     </>
   )
 }

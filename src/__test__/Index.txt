@@ -1,0 +1,14 @@
+/**
+ * @jest-environment jsdom
+ */
+
+import React from 'react'
+import 'jest-styled-components'
+import Home from '../pages'
+import { render } from '@testing-library/react'
+import { ThemeProvider } from 'styled-components'
+import { theme } from '../styles/theme'
+
+describe('<Home/>', () => {
+  it('Should cal')
+})
