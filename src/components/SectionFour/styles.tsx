@@ -16,9 +16,12 @@ export const SectionTitle = styled.p.attrs((props: { color: string }) => ({
 
 export const Container = styled.section`
   width: 100%;
-  min-height: 600px;
+  min-height: 700px;
   padding-left: 11%;
   padding-right: 11%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
 export const FormContainer = styled.div`
   width: 100%;

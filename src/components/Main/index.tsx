@@ -7,5 +7,5 @@ const MainContainer = styled.main`
 `
 
 export const Main: React.FC = ({ children }) => {
-  return <MainContainer>{children}</MainContainer>
+  return <MainContainer data-testid="mainContainer">{children}</MainContainer>
 }

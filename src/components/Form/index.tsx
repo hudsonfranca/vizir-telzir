@@ -32,7 +32,7 @@ export const Form: React.FC<Props> = ({ onSubmit }) => {
   })
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} id="form">
       <div className="form-group ">
         <label
           htmlFor="originAndDestinationPrice"

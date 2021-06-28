@@ -15,7 +15,7 @@ const FooterContainer = styled.footer`
 
 export const Footer = () => {
   return (
-    <FooterContainer data-testid="footer">
+    <FooterContainer>
       <p>Telzir</p>
     </FooterContainer>
   )

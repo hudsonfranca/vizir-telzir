@@ -16,7 +16,7 @@ export const Result: React.FC<Props> = ({
     currency: 'BRL'
   })
   return (
-    <Container>
+    <Container id="result">
       <Card
         bgimageUrl=""
         body={formatter.format(resultWithPlan)}
